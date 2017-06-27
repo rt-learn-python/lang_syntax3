@@ -1,9 +1,12 @@
 # Split string
 text = 'Hello World'
-print(text.split(' ')[0])  # => Hello
+print(text.split(' ')[0])  # => 'Hello'
 
 # replace
-print(text.replace('World', 'Earth'))  # => Hello
+print(text.replace('World', 'Earth'))  # => 'Hello'
 
 # replace
-print('Hello   \n'.rstrip())  # => Hello
+print('Hello   \n'.rstrip())  # => 'Hello'
+
+# remove ending newline only
+print('Hello   \n'.rstrip('/n'))  # => 'Hello   '
