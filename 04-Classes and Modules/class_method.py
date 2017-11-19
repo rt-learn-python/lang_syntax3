@@ -1,4 +1,4 @@
- #!/usr/bin/env python
+#!/usr/bin/env python3
 
 
 # Static Method, omitting the self parameter makes them so.
@@ -8,13 +8,12 @@ class Math:
 
 
 class Square:
-  def draw(self):
-    print("Drawing a square")
-    
+    def draw(self):
+        print("Drawing a square")
 
-print( Math.square( 5 ) )
+
+print(Math.square(5))
 Square().draw()
-
 
 
 class Mom:

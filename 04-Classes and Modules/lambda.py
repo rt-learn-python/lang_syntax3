@@ -1,4 +1,4 @@
- #!/usr/bin/env python3.5
+#!/usr/bin/env python3.5
 
 square = lambda x: x ** 2
 add = lambda x, y: x + y

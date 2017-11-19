@@ -2,7 +2,7 @@ import os
 
 class Phonebook:
 
-    
+
     def __init__(self, cachedir):
         self.contacts = {}
         self.filename = "phonebook.txt"

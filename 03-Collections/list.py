@@ -1,9 +1,22 @@
 #!/usr/bin/env python3.5
 
+# 1. Initialize an empty list
+lst1 = []
+print(lst1)
 
-# Check if list contains an element
-lst = [1, 2, 3, 4]
-print(3 in lst)
+
+# 2. Initiale a list with values
+lst2 = [1, 2, 3]
+print(lst2)
+
+
+# 3. Check if list contains an element
+lst3 = [1, 2, 3, 4]
+print(3 in lst3)  # True
+
+
+# 4. Convert an iterable into a list
+range
 
 
 # Iterate 2 lists

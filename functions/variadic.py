@@ -1,3 +1,6 @@
+#!/usr/bin/env python3.5
+
+
 def sum(*args):
     sum = 0
     for x in args:
@@ -5,4 +8,5 @@ def sum(*args):
     else:
         return sum
 
-print sum(1, 2, 3)
+
+print(sum(1, 2, 3))

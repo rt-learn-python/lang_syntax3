@@ -1,8 +1,10 @@
 #!/usr/bin/env python3.5
 
+
 def five():
     global num
     num = num + 1
+
 
 def main():
     global num
@@ -10,6 +12,7 @@ def main():
     five()
     print(num)
 
+
 num = 0
-main() 
+main()
 print("Hello")

@@ -1,12 +1,11 @@
-
 class Rectangle:
     def __init__(self, width, height):
         self.width = width
         self.height = height
 
     def draw(self):
-        print("Drawing rectangle of width {} and height {}" \
-            .format(self.width, self.height))
+        print("Drawing rectangle of width {} and height {}"
+              .format(self.width, self.height))
 
     def static():
         print("Static Method")
@@ -25,16 +24,14 @@ print('rect.height: %d' % rect1.height)
 
 # Demo use of class variable
 count = 0
+
+
 class Counter(object):
     def show():
         print(count)
-
 
 
 counter1 = Counter()
 counter2 = Counter()
 
 Counter.show()
-
-
-

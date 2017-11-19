@@ -1,7 +1,10 @@
+#!/usr/bin/env python3.5
+
+
 def keyword_param(**param):
     for k, v in param.items():
         print('{} {}'.format(k, v))
 
 
-map = {1:2, 3:4}
-keyword_param(map**)
+map = {1: 2, 3: 4}
+keyword_param(map**)  # error
