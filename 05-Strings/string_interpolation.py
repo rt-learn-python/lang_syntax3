@@ -27,7 +27,7 @@ print('{0} {1}'.format('Hello', 'World'))
 
 # substring
 input = 'abcdef'
-print(input[1:len(input) -1])
+print(input[1:len(input) - 1])
 
 
 # ends_with

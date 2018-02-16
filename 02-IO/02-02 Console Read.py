@@ -5,4 +5,4 @@
 
 # Read from console.
 input = input('Enter something: ')
-print('Hello ' + input)
+print('Hello [{}]'.format(input))
