@@ -66,8 +66,5 @@ text11a = 'Hakuna Matata'
 print('Hakuna' in text11a)  # True
 print('Pumba' not in text11a)  # True
 
-# 12. Lowercase
-text12 = 'Hakuna Matata'
-print(text12.lower())
-
+print('12. Lowercase: {}'.format('Hakuna Matata'.lower()))
 print('13. String length: {}'.format(len('Hakuna Matata')))

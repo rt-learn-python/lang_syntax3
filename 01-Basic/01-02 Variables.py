@@ -28,3 +28,7 @@ try:
     print(var5)
 except NameError as err:
     print(err)  # This line well be executed.
+
+
+# 6. Get expression data type
+print(type({}))
