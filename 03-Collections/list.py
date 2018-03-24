@@ -19,11 +19,16 @@ print(3 in lst3)  # True
 range
 
 
+# Get length of a list
+print("Length of list: {}".format(len([1, 2, 3, 4])))
+
+
 # Iterate 2 lists
 lst1 = [1, 3, 5, 7, 9]
 lst2 = [2, 4, 6, 8, 10]
 for i, j in zip(lst1, lst2):
     print('{} {}'.format(i, j))
+
 
 # 1. Sort a collection
 sorted1 = sorted([1, 3, 10, 7, 9])

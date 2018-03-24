@@ -13,5 +13,5 @@ print("\"")
 
 
 # 4. Print on the same line.
-print('a', end='')  # Ignore the invalid syntax
+print('a', end='')
 print('b')
