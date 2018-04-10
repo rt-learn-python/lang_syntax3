@@ -2,5 +2,8 @@
 
 import os
 
+# Full path
 print(os.getcwd())
+
+# Folder name only
 print(os.path.basename(os.getcwd()))

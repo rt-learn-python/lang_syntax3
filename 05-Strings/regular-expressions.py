@@ -13,7 +13,11 @@ print(matcher.group())
 
 
 # 3. Replace with dynamic string.
-replaced = re.sub(r'\.\d+\(\)', text, '.{}()'.format('hug'))
+text3 = 'productCodes.3900(), "tiny",'
+replaced3 = re.sub(r'\.\d+\(\)', text3, '.{}()'.format('hug'))
+print(replaced3)
 
 
-print(replaced)
+# 4. Check match
+pattern4 = re.compile("^([A-Z][0-9]+)+$")
+pattern4.match('string')

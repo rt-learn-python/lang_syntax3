@@ -39,3 +39,22 @@ print(sorted1)
 sorted2 = [1, 3, 10, 7, 9]
 sorted2.sort()
 print(sorted2)
+
+
+list3 = [1, 2, 3]
+list3.append(4)
+print('3. Add element to list: {}'.format(list3))
+
+list4 = [1, 2, 3]
+# Will throw error when item is not found.
+print('4. Find elements in a list: {}'.format(
+    [x for x in list4 if x == 2]))
+
+
+# Find element, considering case where element don't exist.
+list5 = [1, 2, 3]
+try:
+    found = list5.index(5)
+except ValueError:
+    found = False
+print('5. Find elements in a list: {}'.format(found))

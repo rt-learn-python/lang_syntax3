@@ -68,3 +68,9 @@ print('Pumba' not in text11a)  # True
 
 print('12. Lowercase: {}'.format('Hakuna Matata'.lower()))
 print('13. String length: {}'.format(len('Hakuna Matata')))
+
+print('14. Remove leading/trailing spaces: [{}]'.format(
+    '   Hakuna Matata  '.strip()))
+
+print('15. Check if string starts with another string: [{}]'.format(
+    'Hakuna Matata'.startswith('Bakuna')))
