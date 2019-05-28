@@ -46,6 +46,11 @@ list3.append(4)
 print('3. Add element to list: {}'.format(list3))
 
 list4 = [1, 2, 3]
+list4.pop(0)
+print('4. Remove an element from a list: {}'.format(list4))
+
+
+list4 = [1, 2, 3]
 # Will throw error when item is not found.
 print('4. Find elements in a list: {}'.format(
     [x for x in list4 if x == 2]))

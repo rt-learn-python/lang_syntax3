@@ -7,14 +7,15 @@ print(regex)
 
 
 print('2. Find String occurence')
-text = 'productCodes.3900(), "tiny",'
-matcher = re.search(r'\d+', text)
-print(matcher.group())
+text = 'productCodes.3900()400, "tiny",'
+matcher21 = re.search(r'(\d+)', text)
+print(matcher21.group(1))
 
 
-# 3. Replace with dynamic string.
+print('3. Replace')
 text3 = 'productCodes.3900(), "tiny",'
-replaced3 = re.sub(r'\.\d+\(\)', text3, '.{}()'.format('hug'))
+p = re.compile(r'\.\d+\(\)')
+replaced3 = p.sub('.hug()', text3)
 print(replaced3)
 
 

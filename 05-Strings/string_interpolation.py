@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 print('1. Basic interpolation.')
 print("You got {} points".format(99))
 
@@ -33,3 +35,12 @@ print(input[1:len(input) - 1])
 # ends_with
 input = 'abcdef'
 print(input[-3:])
+
+
+print('10 With keywords')
+print('<a href="%(url)s">%(url)s</a>' % {'url': 'google.com'})
+
+
+print('11 Version 3.6+ With keywords')
+name11 = "Spongebob Squarepants"
+print(f"Who lives in a Pineapple under the sea? {name11}.")

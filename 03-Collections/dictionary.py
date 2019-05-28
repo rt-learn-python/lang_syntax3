@@ -34,3 +34,4 @@ print('6. Check if key exists: {}, not exist: {}'.format(
 hsh7 = {'1': 1}
 print('7. Retrive value, with default if not found: {}'.format(
     hsh7.get('2', 'nine')))
+# > nine

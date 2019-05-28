@@ -27,9 +27,9 @@ text4b = 'String ' 'Concat next to each other'
 print(text4b)
 
 
-# 5. Split string
+print('5. Split string')
 text5 = 'Split String'
-print(text5.split(' ')[0])  # => 'Split'
+print(text5.split(' '))  # => ['Split', 'String']
 
 
 # 6. Replace

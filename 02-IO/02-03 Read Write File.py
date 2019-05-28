@@ -50,3 +50,14 @@ with open('file2.txt', 'r') as f:
     print(f.readline().strip())
     print(f.readline().strip())  # Reads empty string
     print(f.readline().strip())  # Reads empty string
+
+
+print('7. Read file contents to a list')
+with open('file2.txt', 'r') as f:
+    lines = [line.strip() for line in f]
+    print(lines)
+
+
+print('8. Append to file')
+with open("test.txt", "a") as myfile:
+    myfile.write("appended text")
